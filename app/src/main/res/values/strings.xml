@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">AdFrameWorkLibraryProject</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="signin">SIGN IN</string>
+    <string name = "background">BUTTON BACKGROUND</string>
+    <string name="personalize">TO PERSONALIZE</string>
+    <string name="save">SAVE</string>
+    <string name="redeem">REDEEM</string>
+    <string name="reject">I do not want this reward</string>
+    <string name="tagline">YOU DESERVE A TREAT</string>
+    <string name="logo">COMPANY LOGO</string>
+	<string name="reset">RESET</string>
+
+</resources>

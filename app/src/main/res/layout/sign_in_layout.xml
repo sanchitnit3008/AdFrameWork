@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+ 
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     >
+    
+    <ImageView 
+        android:layout_width = "wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="70sp"
+        android:layout_marginRight="110sp"
+        android:contentDescription="@string/logo"
+        android:background="@drawable/logo"/>
+    
+    <TextView
+        android:id="@+id/SignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="70dp"
+        android:text="@string/signin"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/Personalize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+         android:textSize="30sp"
+        android:text="@string/personalize" />
+
+    <ImageView 
+        android:layout_width = "match_parent"
+        android:layout_height="60sp"
+        android:layout_gravity="center"
+        android:contentDescription="@string/background"
+        android:background="@drawable/gradient_linear"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:baselineAligned="false"
+        android:layout_gravity="center" >
+		
+	<LinearLayout 
+	   android:layout_width="0dp"
+    	android:layout_weight="1"
+	    android:layout_height = "60sp"
+	    android:gravity="center">
+	    
+    <Button 
+     android:layout_width="60sp"
+    android:layout_height="60sp"
+    android:id="@+id/googleplus"
+    android:background="@drawable/google_plus"
+    
+    />
+</LinearLayout>
+   
+<LinearLayout 
+	   android:layout_width="0dp"
+    	android:layout_weight="1"
+	    android:layout_height = "60sp"
+	    android:gravity="center">
+	    
+    <Button 
+     android:layout_width="60sp"
+    android:layout_height="60sp"
+    android:id="@+id/facebookicon"
+    android:background="@drawable/fb_icon"
+    
+    />
+</LinearLayout>
+<LinearLayout 
+	   android:layout_width="0dp"
+    android:layout_weight="1"
+	    android:layout_height = "60sp"
+	    android:gravity="center">
+<Button 
+    android:layout_width="60sp"
+    android:layout_height="60sp"
+    android:id="@+id/twitter"
+   android:background="@drawable/twitter_icon"
+    />
+    </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
